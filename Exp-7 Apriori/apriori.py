@@ -1,6 +1,14 @@
 from itertools import combinations
 from collections import defaultdict
 
+ dataset = [
+    ['Milk', 'Bread', 'Eggs'],
+    ['Bread', 'Butter'],
+    ['Milk', 'Bread', 'Butter'],
+    ['Milk', 'Butter'],
+    ['Bread', 'Eggs']
+ ]
+
 def generate_Ck(Lk_prev, k):
    
     Ck = []
